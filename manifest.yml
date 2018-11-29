@@ -2,6 +2,7 @@
 applications:
 # need to change the app name
 - name: cf-sai-spring
-  memory: 768M
+  # changed mem to 1G
+  memory: 1024M
   instances: 1
   random-route: true
